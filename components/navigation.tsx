@@ -16,7 +16,7 @@ const navItems = [
   { name: "AI Chatbots", href: "/ai-chatbots" },
   { name: "Social Media", href: "/social-media" },
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Contact", href: "/#contact" },
+  { name: "Contact", href: "/contact" },
 ]
 
 export function Navigation() {
