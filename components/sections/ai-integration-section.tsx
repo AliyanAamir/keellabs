@@ -81,7 +81,7 @@ export function AIIntegrationSection() {
           className="text-center text-muted-foreground mt-12"
         >
           And hundreds more... Can&apos;t find your app?{" "}
-          <a href="#" className="text-primary hover:underline">
+          <a href="/contact" className="text-primary hover:underline">
             Request an integration
           </a>
         </motion.p>

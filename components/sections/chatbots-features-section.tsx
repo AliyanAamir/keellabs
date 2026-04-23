@@ -96,7 +96,7 @@ export function ChatbotsFeaturesSection() {
               <p className="relative text-muted-foreground text-sm leading-relaxed mb-4">{feature.description}</p>
 
               <motion.a
-                href="#"
+                href="/contact"
                 className="relative inline-flex items-center text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity"
                 whileHover={{ x: 5 }}
               >

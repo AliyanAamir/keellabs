@@ -5,6 +5,7 @@ import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { MagneticButton } from "@/components/magnetic-button"
 import { Target, Zap, TrendingUp } from "lucide-react"
+import Link from "next/link"
 import { BackgroundBeamsWithCollision } from "@/components/background-beams-with-collision"
 import { AceterityAurora } from "@/components/aceternity-aurora"
 
@@ -75,32 +76,36 @@ export function GHLHeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="flex flex-wrap items-center justify-center gap-4"
         >
-          <MagneticButton>
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 h-14 text-lg group"
-            >
-              <TrendingUp className="w-5 h-5 mr-2" />
-              Set Up My GHL System
-              <motion.span
-                className="ml-2"
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
+          <Link href="/contact">
+            <MagneticButton>
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 h-14 text-lg group"
               >
-                →
-              </motion.span>
-            </Button>
-          </MagneticButton>
-          <MagneticButton>
-            <Button
-              size="lg"
-              variant="outline"
-              className="rounded-full px-8 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
-            >
-              <Zap className="w-5 h-5 mr-2" />
-              See What&apos;s Possible
-            </Button>
-          </MagneticButton>
+                <TrendingUp className="w-5 h-5 mr-2" />
+                Set Up My GHL System
+                <motion.span
+                  className="ml-2"
+                  animate={{ x: [0, 5, 0] }}
+                  transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
+                >
+                  →
+                </motion.span>
+              </Button>
+            </MagneticButton>
+          </Link>
+          <Link href="/contact">
+            <MagneticButton>
+              <Button
+                size="lg"
+                variant="outline"
+                className="rounded-full px-8 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
+              >
+                <Zap className="w-5 h-5 mr-2" />
+                See What&apos;s Possible
+              </Button>
+            </MagneticButton>
+          </Link>
         </motion.div>
 
         {/* Stats Row */}

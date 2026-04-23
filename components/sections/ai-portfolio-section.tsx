@@ -5,6 +5,7 @@ import type React from "react"
 import { motion, useInView, AnimatePresence } from "framer-motion"
 import { useRef, useState } from "react"
 import { ArrowUpRight, Play, Pause, ExternalLink } from "lucide-react"
+import Link from "next/link"
 
 const portfolioItems = [
   {

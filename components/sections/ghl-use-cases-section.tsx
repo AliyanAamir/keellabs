@@ -147,7 +147,7 @@ export function GHLUseCasesSection() {
                 <div className="mt-8 pt-6 border-t border-border">
                   <p className="text-sm text-muted-foreground">
                     Want this built for your business?{" "}
-                    <a href="#" className="text-primary hover:underline font-medium">
+                    <a href="/contact" className="text-primary hover:underline font-medium">
                       Let&apos;s talk →
                     </a>
                   </p>

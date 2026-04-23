@@ -168,7 +168,7 @@ export function AutomationsPlatformsSection() {
           <p className="text-muted-foreground">
             <span className="text-foreground font-medium">Not sure which platform you need?</span> Many of our clients
             use both — n8n for backend data workflows and GHL for their customer-facing sales and marketing automation.{" "}
-            <a href="#" className="text-primary hover:underline font-medium">
+            <a href="/contact" className="text-primary hover:underline font-medium">
               Book a free call and we&apos;ll map it out for you →
             </a>
           </p>

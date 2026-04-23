@@ -97,20 +97,22 @@ export function Navigation() {
 
             {/* CTA Button */}
             <div className="hidden md:block">
-              <MagneticButton>
-                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 group overflow-hidden relative">
-                  <span className="relative z-10">Book a Demo</span>
-                  <motion.div
-                    className="absolute inset-0 bg-accent"
-                    initial={{ x: "-100%" }}
-                    whileHover={{ x: 0 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                  <motion.span className="ml-2 relative z-10" initial={{ x: 0 }} whileHover={{ x: 5 }}>
-                    →
-                  </motion.span>
-                </Button>
-              </MagneticButton>
+              <Link href="/contact">
+                <MagneticButton>
+                  <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 group overflow-hidden relative">
+                    <span className="relative z-10">Book a Demo</span>
+                    <motion.div
+                      className="absolute inset-0 bg-accent"
+                      initial={{ x: "-100%" }}
+                      whileHover={{ x: 0 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                    <motion.span className="ml-2 relative z-10" initial={{ x: 0 }} whileHover={{ x: 5 }}>
+                      →
+                    </motion.span>
+                  </Button>
+                </MagneticButton>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -144,9 +146,11 @@ export function Navigation() {
                   </motion.span>
                 </Link>
               ))}
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg mt-4">
-                Book a Demo →
-              </Button>
+              <Link href="/contact">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg mt-4">
+                  Book a Demo →
+                </Button>
+              </Link>
             </div>
           </motion.div>
         )}

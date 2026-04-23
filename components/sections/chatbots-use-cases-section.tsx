@@ -147,7 +147,7 @@ export function ChatbotsUseCasesSection() {
                 <div className="mt-8 pt-6 border-t border-border">
                   <p className="text-sm text-muted-foreground">
                     Ready to automate this for your business?{" "}
-                    <a href="#" className="text-primary hover:underline font-medium">
+                    <a href="/contact" className="text-primary hover:underline font-medium">
                       Let&apos;s talk →
                     </a>
                   </p>

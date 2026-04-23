@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { MagneticButton } from "@/components/magnetic-button"
+import Link from "next/link"
 import { ArrowRight, GitBranch } from "lucide-react"
 
 export function N8NCTASection() {
@@ -52,24 +53,28 @@ export function N8NCTASection() {
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <MagneticButton>
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 h-14 text-lg group"
-              >
-                Get Your Custom n8n Workflow
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </MagneticButton>
-            <MagneticButton>
-              <Button
-                size="lg"
-                variant="outline"
-                className="rounded-full px-10 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
-              >
-                Book a Free Discovery Call
-              </Button>
-            </MagneticButton>
+            <Link href="/contact">
+              <MagneticButton>
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 h-14 text-lg group"
+                >
+                  Get Your Custom n8n Workflow
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </MagneticButton>
+            </Link>
+            <Link href="/contact">
+              <MagneticButton>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="rounded-full px-10 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
+                >
+                  Book a Free Discovery Call
+                </Button>
+              </MagneticButton>
+            </Link>
           </div>
 
           <motion.p

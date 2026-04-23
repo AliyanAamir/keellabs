@@ -129,7 +129,7 @@ export function PortfolioGridSection() {
   const filteredProjects = activeCategory === "All" ? projects : projects.filter((p) => p.category === activeCategory)
 
   return (
-    <section className="py-32 relative">
+    <section id="projects" className="py-32 relative">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-orange-950/5 to-background" />
 

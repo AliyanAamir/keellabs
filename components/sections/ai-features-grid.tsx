@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 import { Brain, Workflow, Gauge, Shield, Layers, Clock, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 const features = [
   {
@@ -103,7 +104,7 @@ export function AIFeaturesGrid() {
 
               {/* Learn More Link */}
               <motion.a
-                href="#"
+                href="/contact"
                 className="relative inline-flex items-center text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity"
                 whileHover={{ x: 5 }}
               >

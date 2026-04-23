@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MagneticButton } from "@/components/magnetic-button"
 import { ArrowRight, Sparkles } from "lucide-react"
@@ -61,24 +62,28 @@ export function AICTASection() {
 
           {/* CTAs */}
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <MagneticButton>
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 h-14 text-lg group"
-              >
-                Start Free Trial
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </MagneticButton>
-            <MagneticButton>
-              <Button
-                size="lg"
-                variant="outline"
-                className="rounded-full px-10 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
-              >
-                Talk to Sales
-              </Button>
-            </MagneticButton>
+            <Link href="/contact">
+              <MagneticButton>
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 h-14 text-lg group"
+                >
+                  Start Free Trial
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </MagneticButton>
+            </Link>
+            <Link href="/contact">
+              <MagneticButton>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="rounded-full px-10 h-14 text-lg border-border hover:border-primary hover:text-primary bg-transparent"
+                >
+                  Talk to Sales
+                </Button>
+              </MagneticButton>
+            </Link>
           </div>
 
           {/* Trust Badge */}

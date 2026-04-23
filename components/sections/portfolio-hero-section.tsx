@@ -314,18 +314,22 @@ export function PortfolioHeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
-          <MagneticButton className="px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-xl font-semibold shadow-lg shadow-orange-500/25 group">
-            <span className="flex items-center gap-2">
-              Explore Projects
-              <motion.span animate={{ x: [0, 5, 0] }} transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}>
-                →
-              </motion.span>
-            </span>
-          </MagneticButton>
+          <a href="#projects">
+            <MagneticButton className="px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-xl font-semibold shadow-lg shadow-orange-500/25 group">
+              <span className="flex items-center gap-2">
+                Explore Projects
+                <motion.span animate={{ x: [0, 5, 0] }} transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}>
+                  →
+                </motion.span>
+              </span>
+            </MagneticButton>
+          </a>
 
-          <MagneticButton className="px-8 py-4 bg-muted/50 backdrop-blur-sm text-foreground rounded-xl font-semibold border border-border/50 hover:bg-muted transition-colors">
-            Contact Us
-          </MagneticButton>
+          <a href="/contact">
+            <MagneticButton className="px-8 py-4 bg-muted/50 backdrop-blur-sm text-foreground rounded-xl font-semibold border border-border/50 hover:bg-muted transition-colors">
+              Contact Us
+            </MagneticButton>
+          </a>
         </motion.div>
 
         {/* Scroll Indicator */}

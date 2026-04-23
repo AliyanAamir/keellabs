@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MagneticButton } from "@/components/magnetic-button"
 import { TextReveal } from "@/components/text-reveal"
@@ -89,40 +90,44 @@ export function CTASection() {
               animate={isInView ? { scale: 1 } : {}}
               transition={{ delay: 0.7, type: "spring", stiffness: 200 }}
             >
-              <MagneticButton>
-                <Button
-                  size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg group relative overflow-hidden"
-                >
-                  <span className="relative z-10 flex items-center gap-2">
-                    Get Started Free
-                    <motion.span initial={{ x: 0 }} whileHover={{ x: 5 }}>
-                      <ArrowRight className="w-5 h-5" />
-                    </motion.span>
-                  </span>
-                  <motion.div
-                    className="absolute inset-0 bg-accent"
-                    initial={{ x: "-100%" }}
-                    whileHover={{ x: 0 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </Button>
-              </MagneticButton>
+              <Link href="/contact">
+                <MagneticButton>
+                  <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg group relative overflow-hidden"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Get Started Free
+                      <motion.span initial={{ x: 0 }} whileHover={{ x: 5 }}>
+                        <ArrowRight className="w-5 h-5" />
+                      </motion.span>
+                    </span>
+                    <motion.div
+                      className="absolute inset-0 bg-accent"
+                      initial={{ x: "-100%" }}
+                      whileHover={{ x: 0 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  </Button>
+                </MagneticButton>
+              </Link>
             </motion.div>
             <motion.div
               initial={{ scale: 0 }}
               animate={isInView ? { scale: 1 } : {}}
               transition={{ delay: 0.85, type: "spring", stiffness: 200 }}
             >
-              <MagneticButton>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="rounded-full px-8 py-6 text-lg border-border hover:border-primary bg-transparent"
-                >
-                  Schedule Demo
-                </Button>
-              </MagneticButton>
+              <Link href="/contact">
+                <MagneticButton>
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="rounded-full px-8 py-6 text-lg border-border hover:border-primary bg-transparent"
+                  >
+                    Schedule Demo
+                  </Button>
+                </MagneticButton>
+              </Link>
             </motion.div>
           </motion.div>
 

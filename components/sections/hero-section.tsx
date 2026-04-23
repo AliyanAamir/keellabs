@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MagneticButton } from "@/components/magnetic-button"
 import { ArrowRight, Play, Zap, ChevronDown } from "lucide-react"
@@ -127,35 +128,39 @@ export function HeroSection() {
           animate={isLoaded ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 1.8 }}
         >
-          <MagneticButton>
-            <Button
-              size="lg"
-              className="relative bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-7 text-lg font-medium overflow-hidden group"
-            >
-              {/* Animated shine effect */}
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full"
-                animate={{ translateX: ["−100%", "200%"] }}
-                transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 3 }}
-              />
-              <span className="relative flex items-center gap-3">
-                <Zap className="w-5 h-5" />
-                Get Started Free
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </span>
-            </Button>
-          </MagneticButton>
+          <Link href="/contact">
+            <MagneticButton>
+              <Button
+                size="lg"
+                className="relative bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-7 text-lg font-medium overflow-hidden group"
+              >
+                {/* Animated shine effect */}
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full"
+                  animate={{ translateX: ["−100%", "200%"] }}
+                  transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 3 }}
+                />
+                <span className="relative flex items-center gap-3">
+                  <Zap className="w-5 h-5" />
+                  Get Started Free
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </span>
+              </Button>
+            </MagneticButton>
+          </Link>
 
-          <MagneticButton>
-            <Button
-              size="lg"
-              variant="outline"
-              className="rounded-full px-10 py-7 text-lg border-border/50 hover:border-primary/50 hover:bg-primary/5 group bg-background/50 backdrop-blur-sm"
-            >
-              <Play className="w-5 h-5 mr-2 text-primary" />
-              <span>Watch Demo</span>
-            </Button>
-          </MagneticButton>
+          <Link href="/portfolio">
+            <MagneticButton>
+              <Button
+                size="lg"
+                variant="outline"
+                className="rounded-full px-10 py-7 text-lg border-border/50 hover:border-primary/50 hover:bg-primary/5 group bg-background/50 backdrop-blur-sm"
+              >
+                <Play className="w-5 h-5 mr-2 text-primary" />
+                <span>Watch Demo</span>
+              </Button>
+            </MagneticButton>
+          </Link>
         </motion.div>
 
         {/* Stats row */}
