@@ -1,0 +1,435 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776908854491,
+  "projectRoot": "D:\\Aliyan\\Project\\keellabs",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.0.10",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "pnpm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": null,
+    "lintCommand": "pnpm lint",
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "build": "next build",
+      "dev": "next dev",
+      "lint": "eslint .",
+      "start": "next start"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase",
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "components",
+      "lib",
+      "public"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1776908854446,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 25,
+      "lastAccessed": 1776908854446,
+      "keyFiles": [
+        "aceternity-aurora.tsx",
+        "animated-border.tsx",
+        "animated-counter.tsx",
+        "animated-grid.tsx",
+        "aurora-background.tsx"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 2,
+      "lastAccessed": 1776908854456,
+      "keyFiles": [
+        "use-device.ts",
+        "utils.ts"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 44,
+      "lastAccessed": 1776908854457,
+      "keyFiles": [
+        "ai-customer-support-interface.jpg",
+        "apple-icon.png",
+        "automated-report-generation.jpg",
+        "crm-automation-dashboard.png",
+        "data-analytics-dashboard-with-charts-and-ai-insigh.jpg"
+      ]
+    },
+    "styles": {
+      "path": "styles",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776908854468,
+      "keyFiles": [
+        "globals.css"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 9,
+      "lastAccessed": 1776909967814,
+      "type": "directory"
+    },
+    {
+      "path": "app\\n8n\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1776909979233,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\footer-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909861726,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\n8n-hero-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909980113,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\n8n-features-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909980291,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\n8n-workflow-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909981037,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\n8n-use-cases-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909981295,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\n8n-cta-section.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909981463,
+      "type": "file"
+    },
+    {
+      "path": "components\\navigation.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776909990044,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\hero-section.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776909833597,
+      "type": "file"
+    },
+    {
+      "path": "app\\layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776909838964,
+      "type": "file"
+    },
+    {
+      "path": "app\\globals.css",
+      "accessCount": 2,
+      "lastAccessed": 1776909842604,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1776909843253,
+      "type": "file"
+    },
+    {
+      "path": "app\\go-high-level\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776909856780,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\cta-section.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776909858397,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\testimonials-section.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776909862254,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1776908988617,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1776908988683,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1776908989099,
+      "type": "file"
+    },
+    {
+      "path": "next.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1776908989234,
+      "type": "file"
+    },
+    {
+      "path": "components.json",
+      "accessCount": 1,
+      "lastAccessed": 1776908989643,
+      "type": "file"
+    },
+    {
+      "path": "app\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776908998587,
+      "type": "file"
+    },
+    {
+      "path": "lib\\utils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776908999609,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1776909000295,
+      "type": "file"
+    },
+    {
+      "path": "data\\CONTEXT.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909705373,
+      "type": "file"
+    },
+    {
+      "path": "data\\GOALS.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909705821,
+      "type": "file"
+    },
+    {
+      "path": "data\\STACK.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909706248,
+      "type": "file"
+    },
+    {
+      "path": "data\\README.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909706699,
+      "type": "file"
+    },
+    {
+      "path": "data\\scoping.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909707389,
+      "type": "file"
+    },
+    {
+      "path": "data\\intake-form.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909707630,
+      "type": "file"
+    },
+    {
+      "path": "data\\chats-to-run.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909708154,
+      "type": "file"
+    },
+    {
+      "path": "data\\email-to-gianni.md",
+      "accessCount": 1,
+      "lastAccessed": 1776909709194,
+      "type": "file"
+    },
+    {
+      "path": "app\\voice-ai\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776909962934,
+      "type": "file"
+    },
+    {
+      "path": "app\\ai-chatbots\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776909976636,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\voice-ai-hero-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776909990090,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\chatbots-hero-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776909997040,
+      "type": "file"
+    },
+    {
+      "path": "app\\social-media\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910005801,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\chatbots-features-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910015685,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\voice-ai-features-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910020120,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\social-hero-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910028147,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\social-features-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910055977,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\chatbots-workflow-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910068419,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\voice-ai-workflow-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910073928,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\chatbots-use-cases-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910092564,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\chatbots-cta-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910100626,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\social-workflow-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910103491,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\voice-ai-use-cases-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776910108122,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\voice-ai-cta-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776943552821,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\social-use-cases-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776943572749,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\social-cta-section.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776943580854,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
