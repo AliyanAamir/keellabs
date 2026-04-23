@@ -8,7 +8,7 @@ import { GHLUseCasesSection } from "@/components/sections/ghl-use-cases-section"
 import { GHLCTASection } from "@/components/sections/ghl-cta-section"
 
 export const metadata = {
-  title: "Go High Level Automation | Keellab",
+  title: "Go High Level Automation | Keel lab",
   description:
     "We set up and automate Go High Level for your business — CRM, funnels, SMS & email campaigns, appointment booking, and reputation management. All done for you.",
 }

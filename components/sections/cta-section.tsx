@@ -73,7 +73,7 @@ export function CTASection() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12"
           >
-            Join thousands of companies using Keellab to automate repetitive tasks and boost productivity. Start your
+            Join thousands of companies using Keel lab to automate repetitive tasks and boost productivity. Start your
             free trial today—no credit card required.
           </motion.p>
 
