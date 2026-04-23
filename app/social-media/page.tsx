@@ -8,7 +8,7 @@ import { SocialUseCasesSection } from "@/components/sections/social-use-cases-se
 import { SocialCTASection } from "@/components/sections/social-cta-section"
 
 export const metadata = {
-  title: "Social Media Automation | Keel lab",
+  title: "Social Media Automation | Keel Lab",
   description: "AI-powered social media content engines that create, schedule, and post across all your platforms — consistent brand voice, zero manual work.",
 }
 

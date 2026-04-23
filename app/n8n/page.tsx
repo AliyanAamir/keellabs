@@ -8,7 +8,7 @@ import { N8NUseCasesSection } from "@/components/sections/n8n-use-cases-section"
 import { N8NCTASection } from "@/components/sections/n8n-cta-section"
 
 export const metadata = {
-  title: "n8n Workflow Automation | Keel lab",
+  title: "n8n Workflow Automation | Keel Lab",
   description:
     "We build powerful n8n workflows that connect your apps, automate repetitive tasks, and run complex multi-step processes — done for you.",
 }

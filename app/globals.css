@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Dark luxury theme for Keel lab */
+  /* Dark luxury theme for Keel Lab */
   --background: #060910;
   --foreground: oklch(0.98 0 0);
   --card: #0a0f18;

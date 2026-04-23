@@ -8,7 +8,7 @@ import { VoiceAIUseCasesSection } from "@/components/sections/voice-ai-use-cases
 import { VoiceAICTASection } from "@/components/sections/voice-ai-cta-section"
 
 export const metadata = {
-  title: "Voice AI Agents | Keel lab",
+  title: "Voice AI Agents | Keel Lab",
   description:
     "We build AI-powered voice agents that answer calls 24/7, qualify leads, book appointments, and handle customer service — so you never miss a call again.",
 }

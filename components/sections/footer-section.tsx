@@ -46,7 +46,7 @@ export function FooterSection() {
                   <div className="absolute inset-2 bg-primary rounded-full" />
                 </div>
                 <span className="text-xl font-bold">
-                  Keel<span className="text-primary">labs</span>
+                  Keel <span className="text-primary">Lab</span>
                 </span>
               </div>
               <p className="text-sm text-muted-foreground mb-6 max-w-xs">
@@ -108,7 +108,7 @@ export function FooterSection() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border gap-4"
           >
-            <p className="text-sm text-muted-foreground">© 2025 Keel lab. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2025 Keel Lab. All rights reserved.</p>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               {["Privacy Policy", "Terms of Service", "Cookies"].map((item, index) => (
                 <motion.a

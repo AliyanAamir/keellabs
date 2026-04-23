@@ -5,9 +5,9 @@ import { FooterSection } from "@/components/sections/footer-section"
 import { ContactSection } from "@/components/sections/contact-section"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Keel lab",
+  title: "Contact Us | Keel Lab",
   description:
-    "Get in touch with Keel lab. Tell us what you're building and we'll reply within 24 hours with a clear plan.",
+    "Get in touch with Keel Lab. Tell us what you're building and we'll reply within 24 hours with a clear plan.",
 }
 
 export default function ContactPage() {

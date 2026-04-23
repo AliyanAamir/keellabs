@@ -4,7 +4,7 @@ import "./globals.css"
 import { CursorGlow } from "@/components/cursor-glow"
 
 export const metadata: Metadata = {
-  title: "Keel lab | Premium Automation Platform",
+  title: "Keel Lab | Premium Automation Platform",
   description: "Next-generation automation platform with intelligent workflows and powerful integrations",
   generator: "v0.app",
   icons: {

@@ -8,7 +8,7 @@ import { ChatbotsUseCasesSection } from "@/components/sections/chatbots-use-case
 import { ChatbotsCTASection } from "@/components/sections/chatbots-cta-section"
 
 export const metadata = {
-  title: "AI Chatbots | Keel lab",
+  title: "AI Chatbots | Keel Lab",
   description: "Custom AI chatbots that handle customer DMs, qualify leads, answer FAQs, and provide 24/7 support across all your messaging channels.",
 }
 

@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     }
 
     const { error } = await resend.emails.send({
-      from: "Keel lab Contact <faizan@keellab.com>",
+      from: "Keel Lab Contact <faizan@keellab.com>",
       to: ["faizan@keellab.com"],
       replyTo: email,
       subject: `New inquiry from ${name}${company ? ` — ${company}` : ""}`,
@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
           <p style="color: #374151; line-height: 1.6; white-space: pre-wrap;">${message}</p>
 
           <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 24px 0;" />
-          <p style="color: #9ca3af; font-size: 12px;">Sent via Keel lab contact form</p>
+          <p style="color: #9ca3af; font-size: 12px;">Sent via Keel Lab contact form</p>
         </div>
       `,
     })

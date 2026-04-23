@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     quote:
-      "Our Go High Level setup was a mess before Keel lab stepped in. They rebuilt our pipelines, automated all our follow-up sequences, and our appointment show rate jumped from 40% to 72% in the first month.",
+      "Our Go High Level setup was a mess before Keel Lab stepped in. They rebuilt our pipelines, automated all our follow-up sequences, and our appointment show rate jumped from 40% to 72% in the first month.",
     author: "Priya Nair",
     role: "Founder",
     company: "Elite Home Services",

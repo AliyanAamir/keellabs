@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Keel lab — a marketing/portfolio website for an automation platform. Built with v0.app, deployed on Vercel. Dark-themed, animation-heavy frontend with no backend/API.
+Keel Lab — a marketing/portfolio website for an automation platform. Built with v0.app, deployed on Vercel. Dark-themed, animation-heavy frontend with no backend/API.
 
 ## Commands
 

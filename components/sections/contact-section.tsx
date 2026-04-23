@@ -114,7 +114,7 @@ export function ContactSection() {
             className="lg:col-span-2 space-y-8"
           >
             <div>
-              <h2 className="text-2xl font-bold mb-6">Why teams choose Keel lab</h2>
+              <h2 className="text-2xl font-bold mb-6">Why teams choose Keel Lab</h2>
               <div className="space-y-6">
                 {[
                   { title: "Fast turnaround", desc: "Most projects scoped and started within a week." },
