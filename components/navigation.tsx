@@ -67,7 +67,7 @@ export function Navigation() {
                   <div className="absolute inset-2 bg-primary rounded-full" />
                 </div>
                 <span className="text-xl font-bold tracking-tight">
-                  Keel<span className="text-primary">labs</span>
+                  Keel<span className="text-primary">lab</span>
                 </span>
               </motion.div>
             </Link>
